@@ -9,14 +9,19 @@
     <title>StoryBooks</title>
 </head>
 <body>
+    {{> _add_btn}}
     {{> _header}}
     <div class="container">
          {{{body}}}
     </div>
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
     <script>
-        M.Sidenav.init(document.querySelector('.sidenav'))
+        M.Sidenav.init(document.querySelector('.sidenav'))                
+        M.FormSelect.init(document.querySelector('#status'))
+        CKEDITOR.replace( 'body');
+       
     </script>
 </body>
 </html>
