@@ -1,4 +1,4 @@
-<h1>Stories</h1>
+<h1 class="Heading2">Dev Feeds</h1>
 <div class="row">
     {{#each stories}}
     <div class="col s12 m4">
@@ -7,8 +7,8 @@
                 {{{editIcon user ../user _id}}}
             </div>
             <div class="card-content center-align">
-                <h5>{{title}}</h5>
-                <p>{{stripTags (truncate body 150)}}</p>
+                <h5 class="index_story_title">{{title}}</h5>
+                <p class="index_story_text">{{stripTags (truncate body 150)}}</p>
                 <br>
                 <div class="chip">
                     <img src="{{user.image}}" alt="images-avatar">
@@ -16,11 +16,11 @@
                 </div>
             </div>
             <div class="card-action center-align">
-                <a href="/stories/{{_id}}" class="btn black">Read More</a>
+                <a href="/stories/{{_id}}" class="btn purple">Read More</a>
             </div>
         </div>
     </div>
     {{else}}
-    <p>No Sych Stories</p>
+    <p class="no-story">No Such Stories Available</p>
     {{/each}}
 </div>

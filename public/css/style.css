@@ -19,3 +19,217 @@ p {
 .img-small {
     width: 180px;
 }
+
+a {
+    border-radius: 5px !important;
+}
+
+.card {
+    border: 2px solid #ddd3dd;
+    box-shadow: none;
+}
+
+body {
+    background-color: #072540;
+}
+.stories_marker {
+    background-color:#173d5d;
+    padding: 10px;
+    border-radius: 5px;
+    color:  #fff;
+    font-size: medium;
+    font-weight: 700;
+}
+
+h3 {
+    color: white;
+}
+
+h5 {
+    color: #93c2db;
+}
+
+.sidenav {
+    background-color: #173d5d;
+}
+
+.sidenav > li > a {
+    color: #93c2db;
+}
+
+h1 {
+    color: white;
+}
+
+.head {
+   background-color: #072540;  
+   box-shadow: none;
+   margin-bottom: 50px;
+} 
+
+.brand-logo {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.striped {
+    background-color: #173d5d;
+    border-radius: 20px !important;
+}
+
+.striped > tbody > tr > td {
+    background-color: #173d5d;
+}
+
+th {
+    color: #93c2db;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+td {
+    padding-left: 30px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 30px;
+}
+
+td > a {
+    color: #a157af;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+tbody {
+    background-color: #173d5d;
+}
+
+table {
+    margin-bottom: 30px;    
+}
+
+.no-story {
+    background-color: rgb(204, 68, 68);
+    opacity: 0.6;
+    padding: 10px;
+    border-radius: 5px;
+    color:  #fff;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.card-content {
+    background-color: #173d5d;
+    border-radius: 20px !important;
+}
+
+.card {
+    background-color: #173d5d;
+    border-radius: 20px;
+    border: none;
+}
+
+.story_title {
+    color: #a157af;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.story_date {
+    color: #93c2db;
+}
+
+.story_body {
+    color: white;
+    font-size: 20px;
+}
+
+.user_name {
+    color: #93c2db;
+    font-size: 20px;
+}
+
+.more_user {
+    color: #a157af !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bottom_user {
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+.delete {
+    background-color: #173d5d;
+    border: none;
+}
+
+.icons {
+   display: flex;
+   flex-direction: column;
+}
+
+.index_story_text {
+    color: white;
+    font-size: 20px;
+    text-align: center !important;
+}
+
+.index_story_title {
+    color: #93c2db;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center !important;
+}
+
+.card-action {
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.add_story {
+    background-color:#173d5d;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input {
+    color: white;
+    text-decoration: none;
+}
+.lead {
+    color: #a157af;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.Heading {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.dashboard {
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.author {
+    font-size: 40px;
+    font-weight: 900;
+    color: purple;
+    margin-bottom: 30px;
+}
+
+
+.Heading2 {
+    font-weight: bolder;
+    font-size: 70px;
+    color: #a157af;
+}
+
+.chip {
+    background-color: #072540;
+}
