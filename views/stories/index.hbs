@@ -7,17 +7,14 @@
                 {{{editIcon user ../user _id}}}
             </div>
             <div class="card-content center-align">
-                <h5 class="index_story_title">{{title}}</h5>
-                <p class="index_story_text">{{stripTags (truncate body 150)}}</p>
+                <h5 class="index_story_title"><a href="/stories/{{_id}}">{{title}}</a></h5>
                 <br>
                 <div class="chip">
                     <img src="{{user.image}}" alt="images-avatar">
                     <a href="/stories/user/{{user._id}}">{{user.displayName}}</a>
                 </div>
             </div>
-            <div class="card-action center-align">
-                <a href="/stories/{{_id}}" class="btn purple">Read More</a>
-            </div>
+            
         </div>
     </div>
     {{else}}

@@ -1,6 +1,6 @@
 <h5 class="dashboard">Dashboard</h5>
-<h3 class="author">Author : {{name}}</h3>
-<p class="stories_marker">Here are the list of stories</p>
+<h3 class="author">halo, {{name}} 🧑‍💻 </h3>
+<p class="stories_marker">Here are the list of your feeds</p>
 {{#if stories}}
     <table class="striped">
         <thead>
@@ -30,8 +30,15 @@
                 </tr>
             {{/each}}
         </tbody>
+         <thead>
+            <tr>
+                <th></th>
+                 <th></th>
+                <th></th>
+            </tr>
+        </thead>
     </table>
 {{else}}
-    <p class="no-story">You have not created any stories</p> 
+    <p class="no-story">You have not Posted any Feed</p> 
 {{/if}}
 

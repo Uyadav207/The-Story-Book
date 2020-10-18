@@ -35,14 +35,17 @@ body {
 .stories_marker {
     background-color:#173d5d;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     color:  #fff;
-    font-size: medium;
+    font-size: 30px;
     font-weight: 700;
+    text-align: center;
 }
 
 h3 {
-    color: white;
+    color: #a157af;
+    font-size: 50px;
+    font-weight: 900;
 }
 
 h5 {
@@ -92,8 +95,7 @@ td {
     padding-left: 30px;
     color: #fff;
     border-radius: 20px;
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
 }
 
 td > a {
@@ -107,7 +109,7 @@ tbody {
 }
 
 table {
-    margin-bottom: 30px;    
+    margin-bottom: 30px;   
 }
 
 .no-story {
@@ -219,7 +221,7 @@ input {
 .author {
     font-size: 40px;
     font-weight: 900;
-    color: purple;
+    color: #a157af;
     margin-bottom: 30px;
 }
 
@@ -228,8 +230,19 @@ input {
     font-weight: bolder;
     font-size: 70px;
     color: #a157af;
+    padding-left: 10px;
 }
 
 .chip {
     background-color: #072540;
 }
+
+.add_btn {
+    border-radius: 50% !important;
+    padding: 10px !important;
+}
+
+.add_btn:hover {
+    padding: 0px !important;
+}
+
