@@ -1,5 +1,4 @@
 <h5 class="dashboard">Dashboard</h5>
-<h3 class="author">halo, {{name}} 🧑‍💻 </h3>
 <p class="stories_marker">Here are the list of your feeds</p>
 {{#if stories}}
     <table class="striped">
@@ -16,16 +15,14 @@
                     <td><a href="/stories/{{_id}}">{{title}}</a></td>
                     <td>{{formatDate createdAt 'MMMM Do YYYY, h:mm:ss a'}}</td>
                     <td><span class="dash-status" >{{status}}</span></td>
-                    <td>
-                        <p class="icons">
-                        <a href="/stories/edit/{{_id}}">
+                    <td class="icons">
+                        <button class="btn dark" href="/stories/edit/{{_id}}">
                         <i class="fas fa-pencil-alt"></i>
-                        </a>
+                        </button>
                         <form action="/stories/{{_id}}" method="POST" id="delete-form">
                         <input type="hidden" name="_method" value="DELETE">
-                        <button class="delete" type="submit"><a><i class="fas fa-trash"></i></a></button>
+                        <button class="btn red" type="submit"><i class="fas fa-trash"></i></button>
                         </form>
-                        </p>
                     </td>
                 </tr>
             {{/each}}

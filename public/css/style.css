@@ -32,12 +32,13 @@ a {
 body {
     background-color: #072540;
 }
+
 .stories_marker {
     background-color:#173d5d;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     color:  #fff;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
 }
@@ -77,7 +78,7 @@ h1 {
 
 .striped {
     background-color: #173d5d;
-    border-radius: 20px !important;
+    border-radius: 10px !important;
 }
 
 .striped > tbody > tr > td {
@@ -86,31 +87,30 @@ h1 {
 
 th {
     color: #93c2db;
-    padding: 30px;
-    font-size: 40px;
+    padding-top: 20px;
+    font-size: 20px;
     font-weight: 900;
+    padding-left: 30px;
 }
 
 td {
     padding-left: 30px;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 20px;
 }
 
 td > a {
     color: #a157af;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 700;
 }
+
 
 tbody {
     background-color: #173d5d;
 }
 
-table {
-    margin-bottom: 30px;   
-}
 
 .no-story {
     background-color: rgb(204, 68, 68);
@@ -163,15 +163,7 @@ table {
     border-bottom-left-radius: 20px !important;
     border-bottom-right-radius: 20px !important;
 }
-.delete {
-    background-color: #173d5d;
-    border: none;
-}
 
-.icons {
-   display: flex;
-   flex-direction: column;
-}
 
 .index_story_text {
     color: white;
@@ -219,7 +211,7 @@ input {
 }
 
 .author {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 900;
     color: #a157af;
     margin-bottom: 30px;
@@ -239,10 +231,25 @@ input {
 
 .add_btn {
     border-radius: 50% !important;
-    padding: 10px !important;
 }
 
-.add_btn:hover {
-    padding: 0px !important;
+.image > img {
+    width: 100% !important;
 }
 
+#body {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+blockquote {
+    background-color: #072540;
+    padding: 10px;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
