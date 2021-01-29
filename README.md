@@ -1,5 +1,8 @@
 # DEV FOREM
 
+<p>
+  <img height="auto" width="100%"  src="https://raw.githubusercontent.com/Uyadav207/Dev-Forem/master/deepin-screen-recorder_google-chrome_20210129223709.gif" />
+</p>
 
 # Built using Stack
 
