@@ -12,7 +12,7 @@
 - BEM Naming Conventions
 - HTML5
 - Context API
-- Stripe Payments
+- Stripe Payment
 - Serverless
 - Cloud Functions
 
